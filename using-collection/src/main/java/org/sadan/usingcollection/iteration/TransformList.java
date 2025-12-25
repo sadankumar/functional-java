@@ -1,4 +1,4 @@
-package org.sadan.iteration;
+package org.sadan.usingcollection.iteration;
 
 import java.util.ArrayList;
 import java.util.Arrays;

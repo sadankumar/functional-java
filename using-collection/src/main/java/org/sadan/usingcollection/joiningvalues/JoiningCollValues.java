@@ -1,4 +1,4 @@
-package org.sadan.joiningvalues;
+package org.sadan.usingcollection.joiningvalues;
 
 import java.util.Arrays;
 import java.util.List;

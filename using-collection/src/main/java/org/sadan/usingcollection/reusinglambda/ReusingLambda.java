@@ -1,4 +1,4 @@
-package org.sadan.reusinglambda;
+package org.sadan.usingcollection.reusinglambda;
 
 import java.util.Arrays;
 import java.util.List;

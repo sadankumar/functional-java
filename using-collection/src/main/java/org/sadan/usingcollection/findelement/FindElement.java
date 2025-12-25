@@ -1,4 +1,4 @@
-package org.sadan.findelement;
+package org.sadan.usingcollection.findelement;
 
 import java.util.ArrayList;
 import java.util.Arrays;

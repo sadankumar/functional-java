@@ -17,7 +17,7 @@ public class ReusingLambda {
         //filter out names that start with a certain letter - N for all the lists
         // A: Normal solution will have the code duplicate
         // we need DRY solution
-        
+
 
     }
 }

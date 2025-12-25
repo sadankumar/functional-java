@@ -1,4 +1,4 @@
-package org.sadan.reducingcoll;
+package org.sadan.usingcollection.reducingcoll;
 
 import java.util.*;
 import java.util.stream.Stream;

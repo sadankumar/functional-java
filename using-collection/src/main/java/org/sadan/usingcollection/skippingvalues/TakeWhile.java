@@ -1,4 +1,4 @@
-package org.sadan.skippingvalues;
+package org.sadan.usingcollection.skippingvalues;
 
 import java.util.Arrays;
 import java.util.List;

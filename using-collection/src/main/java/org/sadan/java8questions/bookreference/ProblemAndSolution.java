@@ -1,5 +1,6 @@
 package org.sadan.java8questions.bookreference;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProblemAndSolution {
@@ -12,6 +13,24 @@ public class ProblemAndSolution {
         increaseSalary(employees,1.10);
         incomeGreaterThan(employees, 2000);
         combinedIncomeAllEmp(employees);
+
+        //Q: what if there is a null
+        increaseSalaryWithNullCheck(employees,1.10);
+    }
+
+    private static void increaseSalaryWithNullCheck(List<Employee> employees, double incBy) {
+        Employee e1 = new Employee("Mena", "FEMALE", 1200);
+        Employee e2 = new Employee("Parkar", "MALE", 800);
+        Employee e3 = new Employee("Susi", "FEMALE", 2000);
+        Employee e4 = new Employee("kim", null, 2000);
+        List<Employee> empList = new ArrayList<>();
+        empList.add(e1);
+        empList.add(e2);
+        empList.add(e3);
+        empList.add(e4);
+        empList.stream()
+                .filter(emp -> "FEMALE".equalsIgnoreCase(emp.getGender()))
+                .forEach(emp -> emp.setSalary(emp.getSalary() * incBy));
     }
 
     private static void combinedIncomeAllEmp(List<Employee> employees) {
